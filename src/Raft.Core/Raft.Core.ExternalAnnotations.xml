@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly name="Raft.Core">
+  <member name="T:FluentValidation.RuleBuilderExtensions">
+    <attribute ctor="M:JetBrains.Annotations.PublicAPIAttribute.#ctor" />
+  </member>
+  <member name="T:Raft.Check">
+    <attribute ctor="M:JetBrains.Annotations.PublicAPIAttribute.#ctor" />
+  </member>
+  <member name="M:Raft.Check.AssignableTo``1(System.Type,System.String)">
+    <parameter name="paramName">
+      <attribute ctor="M:JetBrains.Annotations.InvokerParameterNameAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Raft.Check.Length(System.String,System.String,System.Int32,System.Int32)">
+    <parameter name="paramName">
+      <attribute ctor="M:JetBrains.Annotations.InvokerParameterNameAttribute.#ctor" />
+    </parameter>
+    <parameter name="maxLength">
+      <attribute ctor="M:JetBrains.Annotations.NonNegativeValueAttribute.#ctor" />
+    </parameter>
+    <parameter name="minLength">
+      <attribute ctor="M:JetBrains.Annotations.NonNegativeValueAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Raft.Check.NotDefault``1(``0,System.String)">
+    <parameter name="paramName">
+      <attribute ctor="M:JetBrains.Annotations.InvokerParameterNameAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Raft.Check.NotEmpty(System.Guid,System.String)">
+    <parameter name="paramName">
+      <attribute ctor="M:JetBrains.Annotations.InvokerParameterNameAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Raft.Check.NotNull(System.String,System.String,System.Int32,System.Int32)">
+    <parameter name="paramName">
+      <attribute ctor="M:JetBrains.Annotations.InvokerParameterNameAttribute.#ctor" />
+    </parameter>
+    <parameter name="maxLength">
+      <attribute ctor="M:JetBrains.Annotations.NonNegativeValueAttribute.#ctor" />
+    </parameter>
+    <parameter name="minLength">
+      <attribute ctor="M:JetBrains.Annotations.NonNegativeValueAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Raft.Check.NotNull``1(``0,System.String,System.String)">
+    <parameter name="paramName">
+      <attribute ctor="M:JetBrains.Annotations.InvokerParameterNameAttribute.#ctor" />
+    </parameter>
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.InvokerParameterNameAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Raft.Check.NotNull``1(``0,System.String)">
+    <parameter name="paramName">
+      <attribute ctor="M:JetBrains.Annotations.InvokerParameterNameAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Raft.Check.NotNullOrEmpty(System.String,System.String,System.Int32,System.Int32)">
+    <parameter name="paramName">
+      <attribute ctor="M:JetBrains.Annotations.InvokerParameterNameAttribute.#ctor" />
+    </parameter>
+    <parameter name="maxLength">
+      <attribute ctor="M:JetBrains.Annotations.NonNegativeValueAttribute.#ctor" />
+    </parameter>
+    <parameter name="minLength">
+      <attribute ctor="M:JetBrains.Annotations.NonNegativeValueAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Raft.Check.NotNullOrEmpty``1(System.Collections.Generic.ICollection{``0},System.String)">
+    <parameter name="paramName">
+      <attribute ctor="M:JetBrains.Annotations.InvokerParameterNameAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Raft.Check.NotNullOrWhiteSpace(System.String,System.String,System.Int32,System.Int32)">
+    <parameter name="paramName">
+      <attribute ctor="M:JetBrains.Annotations.InvokerParameterNameAttribute.#ctor" />
+    </parameter>
+    <parameter name="maxLength">
+      <attribute ctor="M:JetBrains.Annotations.NonNegativeValueAttribute.#ctor" />
+    </parameter>
+    <parameter name="minLength">
+      <attribute ctor="M:JetBrains.Annotations.NonNegativeValueAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Raft.Check.Positive(System.Decimal,System.String)">
+    <parameter name="paramName">
+      <attribute ctor="M:JetBrains.Annotations.InvokerParameterNameAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Raft.Check.Positive(System.Double,System.String)">
+    <parameter name="paramName">
+      <attribute ctor="M:JetBrains.Annotations.InvokerParameterNameAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Raft.Check.Positive(System.Int16,System.String)">
+    <parameter name="paramName">
+      <attribute ctor="M:JetBrains.Annotations.InvokerParameterNameAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Raft.Check.Positive(System.Int32,System.String)">
+    <parameter name="paramName">
+      <attribute ctor="M:JetBrains.Annotations.InvokerParameterNameAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Raft.Check.Positive(System.Int64,System.String)">
+    <parameter name="paramName">
+      <attribute ctor="M:JetBrains.Annotations.InvokerParameterNameAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Raft.Check.Positive(System.Single,System.String)">
+    <parameter name="paramName">
+      <attribute ctor="M:JetBrains.Annotations.InvokerParameterNameAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Raft.Check.Range(System.Decimal,System.String,System.Decimal,System.Decimal)">
+    <parameter name="paramName">
+      <attribute ctor="M:JetBrains.Annotations.InvokerParameterNameAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Raft.Check.Range(System.Double,System.String,System.Double,System.Double)">
+    <parameter name="paramName">
+      <attribute ctor="M:JetBrains.Annotations.InvokerParameterNameAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Raft.Check.Range(System.Int16,System.String,System.Int16,System.Int16)">
+    <parameter name="paramName">
+      <attribute ctor="M:JetBrains.Annotations.InvokerParameterNameAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Raft.Check.Range(System.Int32,System.String,System.Int32,System.Int32)">
+    <parameter name="paramName">
+      <attribute ctor="M:JetBrains.Annotations.InvokerParameterNameAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Raft.Check.Range(System.Int64,System.String,System.Int64,System.Int64)">
+    <parameter name="paramName">
+      <attribute ctor="M:JetBrains.Annotations.InvokerParameterNameAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:Raft.Check.Range(System.Single,System.String,System.Single,System.Single)">
+    <parameter name="paramName">
+      <attribute ctor="M:JetBrains.Annotations.InvokerParameterNameAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="T:Raft.EpochTimeHelper">
+    <attribute ctor="M:JetBrains.Annotations.PublicAPIAttribute.#ctor" />
+  </member>
+  <member name="T:Raft.GuidHelper">
+    <attribute ctor="M:JetBrains.Annotations.PublicAPIAttribute.#ctor" />
+  </member>
+  <member name="T:Raft.NameValue`1">
+    <attribute ctor="M:JetBrains.Annotations.PublicAPIAttribute.#ctor" />
+  </member>
+  <member name="T:Raft.Pagination">
+    <attribute ctor="M:JetBrains.Annotations.PublicAPIAttribute.#ctor" />
+  </member>
+  <member name="T:Raft.Security.StringEncryptor">
+    <attribute ctor="M:JetBrains.Annotations.PublicAPIAttribute.#ctor" />
+  </member>
+  <member name="T:Raft.StringBase64Encoder">
+    <attribute ctor="M:JetBrains.Annotations.PublicAPIAttribute.#ctor" />
+  </member>
+  <member name="T:Raft.StringHelper">
+    <attribute ctor="M:JetBrains.Annotations.PublicAPIAttribute.#ctor" />
+  </member>
+  <member name="T:Raft.Validation.PhoneNumber">
+    <attribute ctor="M:JetBrains.Annotations.PublicAPIAttribute.#ctor" />
+  </member>
+  <member name="T:Raft.Validation.PlateNumber">
+    <attribute ctor="M:JetBrains.Annotations.PublicAPIAttribute.#ctor" />
+  </member>
+  <member name="T:Raft.Validation.PostalCode">
+    <attribute ctor="M:JetBrains.Annotations.PublicAPIAttribute.#ctor" />
+  </member>
+  <member name="T:System.Text.Json.JsonSerializerOptionsExtensions">
+    <attribute ctor="M:JetBrains.Annotations.PublicAPIAttribute.#ctor" />
+  </member>
+</assembly>

@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EDAC6FC8-162C-4E09-B26C-E3AF5C4BD93E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{10C99A1D-5A04-49B8-99B1-8253D8EE5590}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raft.Core", "src\Raft.Core\Raft.Core.csproj", "{5F5F693C-86D3-4FCD-888E-52D0B4353FE2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5F5F693C-86D3-4FCD-888E-52D0B4353FE2} = {EDAC6FC8-162C-4E09-B26C-E3AF5C4BD93E}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F5F693C-86D3-4FCD-888E-52D0B4353FE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F5F693C-86D3-4FCD-888E-52D0B4353FE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F5F693C-86D3-4FCD-888E-52D0B4353FE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F5F693C-86D3-4FCD-888E-52D0B4353FE2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
